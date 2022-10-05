@@ -24,7 +24,7 @@ LPT (Places-LT): [Google Drive](https://drive.google.com/file/d/1PEd0YUW_BH0hz6s
 Set the checkpoint to the Phase2 test directory, and then execute the following commands:
 
 ```shell
-CUDA_VISIBLE_DEVICES=0 python eval_pool.py --dataset places365 --split full
+CUDA_VISIBLE_DEVICES=0 python eval_phase2.py --dataset places365 --split full
 ```
 
 You will obtain:
